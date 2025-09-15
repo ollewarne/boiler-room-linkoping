@@ -1,0 +1,16 @@
+section {
+  display: flex;
+  flex-wrap: wrap;         
+  gap: 20px;               
+  padding: 20px;
+}
+
+.resturang {
+  flex: 1 1 300px;         
+  max-width: 350px;        
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
