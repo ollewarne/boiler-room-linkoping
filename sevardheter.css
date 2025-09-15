@@ -1,3 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  width: 100%;
+}
+
+header {
+  background-color: #f0dcca;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
 
 .flygvapenmuseum,
 .gamlalinkoping,
@@ -8,16 +22,20 @@
   line-height: 1.6;
   max-width: 800px;
   margin: 20px auto;
+  font-style: italic;
 }
 
 .flygvapenmuseum,
 .gamlalinkoping {
   display: flex;
   flex-direction: column;
+  font-style: italic;
 }
 .flygvapenmuseum h2,
-.gamlalinkoping h2 {
+.gamlalinkoping h2,
+.intro h2 {
   text-decoration: underline;
+  font-style: normal;
 }
 
 .flygvapenmuseum img,
