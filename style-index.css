@@ -2,70 +2,72 @@ body {
     background-color: #dcdacd;
 }
 
-header {
-  position: relative; /* makes header a positioning context */
-  display: inline-block; /* so it wraps image size if you want */
+
+
+
+/* HISTORY */
+
+.history {
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding-bottom: 10%;
+    padding-top: 10%;
 }
 
-header img {
-  display: block;
-  width: 100%;   /* optional, ensures it scales with container */
-  height: auto;
-}
-
-header h1 {
-  position: absolute;   /* take it out of normal flow */
-  top: 90%;             /* position vertically */
-  left: 50%;            /* position horizontally */
-  transform: translate(-50%, -50%); /* center it */
-  color: white;         /* readable over image */
-  font-size: 2rem;
-  text-align: center;
-  background: rgba(0,0,0,0.5); /* semi-transparent background */
-  padding: 10px 20px;
-  border-radius: 8px;
-}
-
-
-
-nav {
-    width: 100%;
-    height: 90px;
+.history p {
     background-color: white;
-    border-top: 10px solid #878976;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    position: sticky;
-    top: 20;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.history h2 {
+    font-size: 20pt;
 }
 
 
 
-nav a {
-    font-size: 3vh;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 4.5vw;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #503328;
-}
-
-nav a:hover {
-    color: #878976;
-}
-
-
-
-
-
+/* GUIDES */
 
 .guides {
-    display: flex;
-
-}
-
-article img {
     width: 80%;
+    display: block;
+    margin: auto;
+    padding-bottom: 10%;
 }
+
+
+
+/* GUIDE CARDS */
+
+
+
+
+.guide-cards {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.guide-cards article {
+    background-color: white;
+    margin: 1vw;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.guide-cards article img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 10%;
+}
+
+.guide-cards article span {
+    font-weight: bold;
+}
+
+
+
+
+

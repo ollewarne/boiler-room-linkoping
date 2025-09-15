@@ -1,6 +1,16 @@
+/* ROOT & BODY */
+
+:root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
     background-color: #dcdacd;
 }
+
+
+
+/* HEADER STYLING */
 
 header {
   position: relative; /* makes header a positioning context */
@@ -15,18 +25,26 @@ header img {
 
 header h1 {
   position: absolute;   /* take it out of normal flow */
-  top: 90%;             /* position vertically */
+  top: 80%;             /* position vertically */
   left: 50%;            /* position horizontally */
   transform: translate(-50%, -50%); /* center it */
-  color: white;         /* readable over image */
-  font-size: 2rem;
+  color: #503328;         /* readable over image */
+  font-size: 3rem;
   text-align: center;
+  background-color: #dcdacd;
+  /*
   background: rgba(0,0,0,0.5); /* semi-transparent background */
   padding: 10px 20px;
-  border-radius: 8px;
+  border-radius: 20px;
+  white-space: nowrap;
 }
 
 
+
+
+
+
+/* NAVIGERINGS STYLING */ 
 
 nav {
     width: 100%;
@@ -44,15 +62,52 @@ nav {
 
 
 nav a {
-    font-size: 3vh;
+    font-size: 2vh;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 4.5vw;
+    margin: 3vw;
     text-transform: uppercase;
     text-decoration: none;
-    color: #503328;
+    /* color: #503328; */
+
+    color: white;
+    background-color: #878976;
+
+ 
+    padding: 1%;
+    border-radius: 20px;
+    white-space: nowrap;
 }
 
 nav a:hover {
-    color: #878976;
+    color: #503328;
+    background-color: #dcdacd;
 }
 
+
+
+
+
+
+/* FOOTER */
+
+
+footer {
+    text-align: center;
+    border-top: #878976 solid 2px;
+}
+
+footer section {
+    margin: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer section span {
+    font-weight: bold;
+}
+
+footer .copy {
+    font-style: italic;
+    color: #878976;
+    padding-top: 5%;
+}
