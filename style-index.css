@@ -6,7 +6,16 @@ body {
 
 
 /* HISTORY */
-
+.history aside {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3vh;
+    text-align: center;
+    padding-bottom: 8%;
+    padding-top: 3%;
+    text-shadow: 1px 1px 3px #878976;
+    color: #503328;
+    word-spacing: 0.5vw;
+}
 .history {
     width: 70%;
     display: block;
