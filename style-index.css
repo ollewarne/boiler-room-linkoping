@@ -56,3 +56,16 @@ nav a:hover {
     color: #878976;
 }
 
+
+
+
+
+
+.guides {
+    display: flex;
+
+}
+
+article img {
+    width: 80%;
+}
