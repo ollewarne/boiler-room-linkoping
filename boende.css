@@ -19,7 +19,7 @@ main {
 .mainContent>section {
     padding: 2em;
     border-radius: 1em;
-    background-color: gray;
+    background-color: #f0e68b;
 }
 
 p {
